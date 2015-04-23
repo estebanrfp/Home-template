@@ -2,9 +2,13 @@
   background-color: darkred;
   width: 100%;
   height: 50px;
+  display: inline-block;
 }
 .image_logo{
   background-color: yellow;
+  width: 50px;
+  display: inline-block;
+  position: absolute;
 }
 .boximage {
   background-color: green;
@@ -20,11 +24,13 @@
   padding-right: 47px;
 }
 .menu {
-  background-color:blue;
+  background-color: blue;
   float: left;
-  display: inline-block;
-  height: 50px;
-  margin-top: -9px;
+  display: inline;
+  position: relative;
+  width: 379px;
+  top: 15px;
+  left: 20px;
 }
 
 .menu {
