@@ -49,7 +49,33 @@ li {
   display: inline;
 }
 
-.button  { display: block; position: relative;  width: 100px; height: 50px; background: #5197dc; font: 18px/40px helvetica; color: #fff; text-align: center; text-decoration: none; border-radius: 5px; box-shadow: rgba(0,0,0,.2) 0 -10px 0 inset; -webkit-transition: all .15s; transition: all .15s; }
-.button:before  { content: ""; position: absolute; z-index: -1; top: -5px; right: -5px; bottom: -5px; left: -5px; border: 10px solid #fff; border-radius: 10px; }
+.button {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background: #5197dc;
+  font: 18px/40px helvetica;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,.2) 0 -10px 0 inset;
+    -webkit-transition: all .15s;
+    transition: all .15s;
+  }
+.button:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: -5px;
+   right: -5px;
+   bottom: -5px;
+   left: -5px;
+   border: 10px solid #fff;
+   border-radius: 10px; }
 
-.button:hover  { box-shadow: rgba(0,0,0,0) 0 0 0 inset; line-height: 50px; }
+.button:hover {
+  box-shadow: rgba(0,0,0,0) 0 0 0 inset;
+  line-height: 50px;
+  }
