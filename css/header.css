@@ -1,0 +1,9 @@
+.header {
+  background-color: darkred;
+}
+.menu {
+  float: left;
+}
+.login {
+  float: right;
+}
