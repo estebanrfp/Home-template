@@ -4,7 +4,7 @@
   height: 50px;
   display: inline-block;
 }
-.image_logo{ 
+.image_logo{
   float: left;
   margin-left: 10px;
   margin-top: 5px;
@@ -20,17 +20,29 @@
   height: 50px;
 }
 .login {
+  background-color: white;
   float: right;
+  padding-right: 16px;
+  margin-top: 16px;
+  width: 148px;
+  height: 21px;
+  margin-right: 0px;
 }
 
 
 ul, ol {
-				list-style:none;
+    margin-right: 35px;
+		list-style:none;
 			}
 li {
   display: inline;
+  margin-left: 4px;
+  font-family: initial;
 }
+.boton_login{
+  margin-left: 4px;
 
+}
 .button {
   color: #eee;
   cursor: pointer;
@@ -81,7 +93,7 @@ li {
 */  /*line-height: 20px;*/
  /* color: white;*/
 /*  box-shadow: rgba(0,0,0,.2) 0 -5px 0 inset;
-*/  
+*/
   transition: all .5s;
   transition-property: all;
   transition-duration: .5s;
