@@ -40,20 +40,13 @@ li {
 .button {
   display: inline-block;
   width: 72px;
-  height: 50px;
-  background: #a90329;
-  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 48%, #6d0019 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(48%,#8f0222), color-stop(100%,#6d0019));
-  background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 48%,#6d0019 100%);
-  background: -o-linear-gradient(top, #a90329 0%,#8f0222 48%,#6d0019 100%);
-  background: -ms-linear-gradient(top, #a90329 0%,#8f0222 48%,#6d0019 100%);
-  background: linear-gradient(to bottom, #a90329 0%,#8f0222 48%,#6d0019 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
-  font: 18px/40px helvetica;
+  height: 39px;
+  background: darkred;
+  font: 13px/45px tahoma;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  box-shadow: rgba(0,0,0,.2) 0 -10px 0 inset;
+  box-shadow: rgba(0,0,0,.2) 0 -5px 0 inset;
     -webkit-transition: all .15s;
     transition: all .15s;
   position: relative;
@@ -75,5 +68,15 @@ li {
 
 .button:hover {
   box-shadow: rgba(0,0,0,0) 0 0 0 inset;
-  line-height: 50px;
+  line-height: 20px;
+  color: white;
+  box-shadow: rgba(0,0,0,.2) 0 -5px 0 inset;
+  transition: all .15s;
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+    -webkit-transition: all .15s;
+  background-color: red;
+
   }
