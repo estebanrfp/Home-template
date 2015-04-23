@@ -17,15 +17,12 @@
 
 .items_menu {
   display: inline;
-  padding-right: 47px;
+  height: 69px;
+  width: 360px;
 }
 .menu {
   float: left;
-  display: inline;
-  position: relative;
-  width: 434px;
-  top: 15px;
-  left: 20px;
+  display: inline-block;
   height: 50px;
 }
 .login {
@@ -42,26 +39,28 @@ li {
 
 .button {
   display: inline-block;
-  position: relative;
   width: 72px;
-  height: 36px;
-  top: -9px;
-  background: #a90329; /* Old browsers */
-  background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 48%, #6d0019 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(48%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 48%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #a90329 0%,#8f0222 48%,#6d0019 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 48%,#6d0019 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #a90329 0%,#8f0222 48%,#6d0019 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+  height: 50px;
+  background: #a90329;
+  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 48%, #6d0019 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(48%,#8f0222), color-stop(100%,#6d0019));
+  background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 48%,#6d0019 100%);
+  background: -o-linear-gradient(top, #a90329 0%,#8f0222 48%,#6d0019 100%);
+  background: -ms-linear-gradient(top, #a90329 0%,#8f0222 48%,#6d0019 100%);
+  background: linear-gradient(to bottom, #a90329 0%,#8f0222 48%,#6d0019 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
   font: 18px/40px helvetica;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  border-radius: 5px;
   box-shadow: rgba(0,0,0,.2) 0 -10px 0 inset;
-  -webkit-transition: all .15s;
-  transition: all .15s;
+    -webkit-transition: all .15s;
+    transition: all .15s;
+  position: relative;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: 6px;
+  left: 30px;
   }
 .button:before {
    content: "";
